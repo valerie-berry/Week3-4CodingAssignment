@@ -54,6 +54,7 @@ public class main {
 		return (rt1 / arr1.length) > (rt2 / arr2.length);		
 	}
 	
+	// 12
 	public static boolean willBuyDrink(boolean isHotOutside, double moneyInPocket) {
 		return isHotOutside && (moneyInPocket > 10.5);
 	}
@@ -152,8 +153,5 @@ public class main {
 		String roundedSleep = String.format("%.2f", avgSleepHrs);
 		System.out.println("What was the averge time I slept this week?: " + roundedSleep);
 	}
-
-
 	
-}
-	
+}	
